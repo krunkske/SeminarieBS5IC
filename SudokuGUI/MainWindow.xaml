@@ -36,13 +36,13 @@
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
-                <RowDefinition/>
+                <RowDefinition Height="34.669"/>
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
         </Grid>
-        <TextBox HorizontalAlignment="Left" Margin="40,169,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="40,169,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" BorderBrush="White" LostFocus="TextBox_LostFocus" KeyDown="TextBox_KeyDown"/>
     </Grid>
 
 
